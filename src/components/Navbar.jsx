@@ -13,7 +13,7 @@ export const Navbar = () => {
     setlogo(!logo);
   };
   return (
-    <div className="flex justify-between items-center h-20 px-4">
+    <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white">
       <div>
         <h1 onClick={handleNav} className={logo ? "hidden" : "block"}>
           PLAGE.
@@ -48,7 +48,7 @@ export const Navbar = () => {
         onClick={handleNav}
         className={
           nav
-            ? "absolute left-0 top-0 w-full bg-gray-100/90 p-x4 py-7 flex flex-col"
+            ? "absolute text-black left-0 top-0 w-full bg-gray-100/90 p-x4 py-7 flex flex-col"
             : "absolute left-[-100%]"
         }
       >
