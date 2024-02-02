@@ -1,9 +1,10 @@
 import React from "react";
 import lacRose from "../asserts/lacRose.jpg";
-import brasdemer from "../asserts/brasdemer.jpg";
+import plagesaly from "../asserts/plage-saly.jpg";
+import hotel1 from "../asserts/hotel.jpg";
 import couchesoleil from "../asserts/couchesoleil.jpg";
-import montagne from "../asserts/montagne.jpg";
-import unarbre from "../asserts/unarbre.jpg";
+import restosaly from "../asserts/resto-saly.jpg";
+//import unarbre from "../asserts/unarbre.jpg";
 // Ici nous allons importer toutes les images et les afficher sur notre page
 export const Destinations = () => {
   return (
@@ -13,7 +14,7 @@ export const Destinations = () => {
       <div className="grid grid-rows-none md:grid-cols-5 py-4 gap-2 md:gap-4">
         <img
           className="w-full h-full object-cover col-span-2 md:col-span-3 row-span-2"
-          src={brasdemer}
+          src={plagesaly}
           alt="/"
         />
         <img className="w-full h-full object-cover" src={lacRose} alt="/" />
@@ -22,8 +23,8 @@ export const Destinations = () => {
           src={couchesoleil}
           alt="/"
         />
-        <img className="w-full h-full object-cover" src={montagne} alt="/" />
-        <img className="w-full h-full object-cover" src={unarbre} alt="/" />
+        <img className="w-full h-full object-cover" src={hotel1} alt="/" />
+        <img className="w-full h-full object-cover" src={restosaly} alt="/" />
       </div>
     </div>
   );

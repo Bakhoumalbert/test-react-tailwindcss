@@ -7,16 +7,9 @@ export const Search = () => {
     <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-4 px-4 py-16">
       <div className="lg:col-span-2 flex flex-col justify-evenly">
         <div>
-          <h2>Description des images</h2>
+          <h2>SENETOUR</h2>
           <p className="py-4">
-            Il s’agit une photo prise un jour d’été dans un parc. Au premier
-            plan, nous voyons une scène de famille où 3 enfants jouent à faire
-            une bataille d’eau avec leur père. Les enfants portent un maillot de
-            bain, le père est habillé et porte des lunettes de soleil. C’est
-            probablement les vacances, il faut chaud et ils veulent s’amuser.
-            Ils sourient tous. Le père est la cible des enfants qui lancent des
-            seaux d’eau sur lui. A l’arrière-plan, d’autres personnes en maillot
-            de bain se trouvent dans le parc.
+            Le Sénégal, joyau de l'Afrique de l'Ouest, séduit les voyageurs du monde entier par sa richesse culturelle, sa diversité naturelle et son hospitalité chaleureuse. Le tourisme au Sénégal offre une expérience unique, mêlant traditions séculaires, sites historiques, plages paradisiaques et une vie sauvage exceptionnelle.
           </p>
         </div>
         <div className="grid sn: grid-cols-2 gap-8 py-4">
